@@ -1,0 +1,145 @@
+
+/* base styles*/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9375rem;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: var(--Very-Light-Gray);
+}
+
+:root {
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  color: var(--Very-Dark-Blue)
+}
+
+h1 strong {
+  font-size:2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+p {
+  font-weight:400;
+  color: var(--Grayish-blue);
+  margin: .5em 0;
+}
+
+/* Header */ 
+
+header {
+  width: 45%;
+  text-align: center;
+  margin: 2em auto;
+}
+
+/* containers */ 
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center {
+  display: inline-flex;
+  width: 30%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+/*card*/ 
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 2em;
+  align-content: flex-start;
+  margin: 1em auto;
+  border-radius: 0.25em;
+  box-shadow: 0em 0.5em 1em var(--Grayish-blue);
+  height: 100%;
+}
+
+.card p {
+  font-size: 0.8em;
+}
+
+
+.card img {
+  align-self: flex-end;
+  margin-top: 1em;
+}
+
+.center .card {
+  width: 100%;
+}
+
+#blue {
+  border-top: 0.25em solid var(--Blue);
+}
+
+#red {
+  border-top: 0.25em solid var(--Red);
+}
+
+#orange {
+  border-top: 0.25em solid var(--Orange);
+}
+
+#cyan {
+  border-top: 0.25em solid var(--Cyan);
+}
+
+/*Mobile */
+@media only screen and (max-width: 375px) {
+  /* Base Styles */
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h1 strong {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+  
+  /* Header */
+  header {
+    width: 80%;
+  }
+
+  /* Containers */
+  .container {
+    width: 80%;
+    flex-direction: column;
+  }
+  .card,
+  .center {
+    width: 100%
+  }
+
+}
