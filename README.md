@@ -29,7 +29,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Screenshot
 
 ![Desktop View](./Results/Desktop-view.png)
-![Mobile View](./Results/Mobile-View.png)
+![Mobile View](./Results/Mobile-view.png)
 
 ### Links
 
