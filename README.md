@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Soloution URL:](https://github.com/Callietron300/Four-Card-Feature-Section)
-- Live Site URL: [Live Site URL:](https://callietron300.github.io/Four-Card-Feature-Section/)
+- [Soloution URL:](https://github.com/Callietron300/Four-Card-Feature-Section)
+- [Live Site URL:](https://callietron300.github.io/Four-Card-Feature-Section/)
 
 ## My process
 
