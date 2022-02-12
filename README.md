@@ -22,14 +22,14 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### The challenge
 
-Users should be able to:
+![Desktop View](./design/desktop-design.jpg)
+![Modile View](./design/mobile-design.jpg)
 
-- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
-[Desktop View](./Results/Desktop view.png)
-[Mobile View](./Results/Mobile View.png)
+![Desktop View](./Results/Desktop view.png)
+![Mobile View](./Results/Mobile View.png)
 
 ### Links
 
